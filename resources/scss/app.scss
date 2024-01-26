@@ -4,10 +4,26 @@ body {
     font-family: sans-serif;
     background: #222;
     color: white;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/015/090/719/original/train-ticket-pattern-seamless-vector.jpg);
+    background-size: 20%;
 }
 
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.47) !important;
+    border-radius: 16px !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+}
+
+ul,
+li {
+    background-color: #2222226f !important;
+    color: white !important;
 }
